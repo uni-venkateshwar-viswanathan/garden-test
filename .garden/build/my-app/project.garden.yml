@@ -4,3 +4,8 @@ environments:
   - name: default
 providers:
   - name: local-kubernetes
+    environments: [default]
+    namespace:
+      name: default
+    setupIngressController: kong
+    defaultHostname: localhost
