@@ -1,0 +1,1 @@
+<template>Users page</template>

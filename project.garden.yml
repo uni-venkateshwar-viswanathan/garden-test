@@ -1,0 +1,6 @@
+kind: Project
+name: my-app
+environments:
+  - name: default
+providers:
+  - name: local-kubernetes
